@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Subject List</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+      }
+      
+      body {
+        display: grid;
+        place-items: center;
+        min-height: 100vh;
+        background-color: #f9f9f9;
+        padding: 20px;
+      }
+
+      .subject-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 20px;
+        width: 100%;
+        max-width: 1000px;
+      }
+
+      .subject {
+        background-color: #fff;
+        border: 2px solid salmon;
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        text-align: center;
+      }
+
+      .subject h3 {
+        margin: 10px 0;
+        font-size: 1.2em;
+        color: #333;
+      }
+
+      .subject p {
+        margin: 5px 0;
+        color: #666;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="subject-list">
+      <div class="subject">
+        <h3>Introduction to Psychology</h3>
+        <p>Code: PSY101</p>
+        <p>Credits: 3</p>
+        <p>Professor: Dr. Smith</p>
+      </div>
+      <div class="subject">
+        <h3>Calculus I</h3>
+        <p>Code: MATH201</p>
+        <p>Credits: 4</p>
+        <p>Professor: Dr. Johnson</p>
+      </div>
+      <div class="subject">
+        <h3>Microeconomics</h3>
+        <p>Code: ECO102</p>
+        <p>Credits: 3</p>
+        <p>Professor: Prof. Lee</p>
+      </div>
+      <div class="subject">
+        <h3>Introduction to Sociology</h3>
+        <p>Code: SOC101</p>
+        <p>Credits: 3</p>
+        <p>Professor: Dr. Martinez</p>
+      </div>
+      <div class="subject">
+        <h3>General Biology</h3>
+        <p>Code: BIO110</p>
+        <p>Credits: 4</p>
+        <p>Professor: Dr. Brown</p>
+      </div>
+      <div class="subject">
+        <h3>Introduction to Computer Science</h3>
+        <p>Code: CS101</p>
+        <p>Credits: 3</p>
+        <p>Professor: Prof. Wilson</p>
+      </div>
+      <div class="subject">
+        <h3>English Composition</h3>
+        <p>Code: ENG101</p>
+        <p>Credits: 3</p>
+        <p>Professor: Dr. Davis</p>
+      </div>
+      <div class="subject">
+        <h3>World History</h3>
+        <p>Code: HIS105</p>
+        <p>Credits: 3</p>
+        <p>Professor: Prof. Miller</p>
+      </div>
+    </div>
+  </body>
+</html>
